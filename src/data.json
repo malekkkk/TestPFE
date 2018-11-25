@@ -1,0 +1,33 @@
+{
+  "offers": [
+    {
+      "companyName": "Naji Buyer - Dany - CAST AND MACHINE TUBE",
+      "technology": "Plastic additive Fabrication",
+      "offerAmount": "not Yet",
+      "numSuppliers": "From 5 to 10",
+      "offerStatus": "Awaiting for approval"
+    },
+    {
+      "companyName": "Buyer Unlimited - DUPLICATE OF MODEL RFQ SIMPLE ",
+      "technology": "Metal Manufacturing Technologies",
+      "offerAmount": "0 €",
+      "numSuppliers": "From 5 to 10",
+      "offerStatus": "Make an offer"
+    },
+    {
+      "companyName": "A buyer s55 rcq -TEST FORM POUR OFFRE",
+      "technology": "Aluminium Heat treatment",
+      "offerAmount": "3000 €",
+      "numSuppliers": "Less than 5",
+      "offerStatus": "Waiting for verification"
+    },
+    {
+      "companyName": "Herminston - Rodriguez -EXW ",
+      "technology": "Metal additive fabrication",
+      "offerAmount": "10000 €",
+      "numSuppliers": "Less than 5",
+      "offerStatus": "Waiting for verification"
+    }
+
+  ]
+}
