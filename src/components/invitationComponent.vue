@@ -62,14 +62,14 @@
         color: Gray;
         font-size: small;
         margin-top: 25px;
-        margin-right: -90px;
+        margin-right: 3%;
     }
     .numberOfSupplier {
         display: inline-block;
         color: Gray;
         font-size: small;
-        margin-right: 70px;
-        margin-top: 25px;
+        margin-right: 8%;
+        margin-top: 2%;
     }
 
     .companyTechnology {
@@ -83,8 +83,8 @@
 
     .companyNameAndTechnology {
         float: left;
-        margin-left: -130px;
-        margin-top: 10px;
+        margin-left: 1%;
+        margin-top: 1%;
         color: gray;
     }
 
@@ -105,9 +105,9 @@
 
     .center {
         display: inline-block;
-        width: 60px;
+        width: 55px;
         color: Gray;
-        margin-left: 120px;
+        margin-left: 7%;
     }
 
     .right {
@@ -124,6 +124,11 @@
         margin-left: 2%;
         background-color: white;
         margin-top: -15px;
+        border-style: solid;
+        border-color: white;
+        border-left-color: orange;
+        border-width: 5px;
+        border-radius: 5px;
     }
 
         .card:hover {

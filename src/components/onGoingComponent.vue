@@ -7,24 +7,26 @@
             <h6 class="centerNombreOfSupplier">N of supplier</h6>
             <h6 class="right">Your status</h6>
         </div>
-        <div class="onGoingCard"
+        <div
              v-for="offer in offers"
              :key="offer">
             <div class="onGoingContainer" v-if="offer.offerStatus === 'Make an offer'">
-                <span class="onGoingCompanyNameAndTechnology">
-                    <span class="companyName">{{offer["companyName"]}}</span>
-                    <br />
-                    <span class="companyTechnology">{{offer["technology"]}}</span>
-                </span>
-                <span class="onGoingOfferAmount">
-                    {{offer["offerAmount"]}}
-                </span>
-                <span class="onGoingNumberOfSuppliers">
-                    {{offer["numSuppliers"]}}
-                </span>
-                <span class="onGoingStatus">
-                    {{offer["offerStatus"]}}
-                </span>
+                <div class="onGoingCard">
+                    <span class="onGoingCompanyNameAndTechnology">
+                        <span class="companyName">{{offer["companyName"]}}</span>
+                        <br />
+                        <span class="companyTechnology">{{offer["technology"]}}</span>
+                    </span>
+                    <span class="onGoingOfferAmount">
+                        {{offer["offerAmount"]}}
+                    </span>
+                    <span class="onGoingNumberOfSuppliers">
+                        {{offer["numSuppliers"]}}
+                    </span>
+                    <button class="onGoingStatus">
+                        {{offer["offerStatus"]}}
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -53,8 +55,6 @@
 <style>
 
     .onGoingOfferAmount {
-        margin-left: -40px;
-        margin-right: 90px;
         color: Gray;
         font-size: small;
     }
@@ -63,17 +63,22 @@
         float: right;
         color: Gray;
         font-size: small;
-        margin-top: 15px;
-        margin-right: 77px;
+        margin-right: 7%;
+        margin-top: 2%;
+        background-color: #00b4ff;
+        border: none;
+        height: 29px;
+        width: 113px;
+        border-radius: 18px;
     }
 
     .onGoingNumberOfSuppliers {
-        margin-right: 200px;
-        margin-left: -15px;
         color: Gray;
         font-size: small;
         display: inline-block;
-        margin-top: 15px;
+        margin-right: 16%;
+        margin-top: 2%;
+        margin-left: 5%;
     }
 
     .companyTechnology {
@@ -87,8 +92,9 @@
 
     .onGoingCompanyNameAndTechnology {
         float: left;
-        margin-left: 27px;
+        margin-left: 1%;
         color: gray;
+        margin-top: 15px;
     }
 
     .title {
@@ -125,13 +131,18 @@
     }
 
     .onGoingCard {
-        box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2); 
+        box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         width: 96%;
-        height: 28px;
+        height: 65px;
         margin-left: 2%;
         background-color: white;
         margin-top: -15px;
+        border-style: solid;
+        border-color: white;
+        border-left-color: #00b4ff;
+        border-width: 5px;
+        border-radius: 5px;
     }
 
         .onGoingCard:hover {

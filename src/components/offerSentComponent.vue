@@ -25,7 +25,7 @@
                     <span class="offreSentNumberOfSuppliers">
                         {{offer["numSuppliers"]}}
                     </span>
-                    <span class="onGoingStatus">
+                    <span class="offreSentStatus">
                         {{offer["offerStatus"]}}
                     </span>
                 </div>
@@ -70,12 +70,12 @@
         margin-top: -40px;
     }
 
-    .onGoingStatus {
+    .offreSentStatus {
         float: right;
         color: Gray;
         font-size: small;
-        margin-top: 15px;
-        margin-right: 77px;
+        margin-right: 7%;
+        margin-top: 2%;
     }
 
     .offreSentNumberOfSuppliers {
@@ -147,6 +147,11 @@
         background-color: white;
         margin-bottom: 30px;
         margin-top: -11px;
+        border-style: solid;
+        border-color: white;
+        border-left-color: #2fff00;
+        border-width: 5px;
+        border-radius: 5px;
     }
 
         .offreSentCard:hover {
